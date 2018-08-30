@@ -1,0 +1,864 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6051F183212E58E400CD8192 /* GithubApiDebugService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6051F182212E58E400CD8192 /* GithubApiDebugService.swift */; };
+		6051F187212E5C7F00CD8192 /* ServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6051F186212E5C7F00CD8192 /* ServiceModule.swift */; };
+		6051F189212E5CE300CD8192 /* ServiceModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6051F188212E5CE300CD8192 /* ServiceModule.swift */; };
+		6051F1A7212EA39600CD8192 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6051F1A6212EA39600CD8192 /* GithubApi.swift */; };
+		6051F1A8212EA39600CD8192 /* GithubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6051F1A6212EA39600CD8192 /* GithubApi.swift */; };
+		6063CFCD212CF9EB00B7D639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063CFCC212CF9EB00B7D639 /* AppDelegate.swift */; };
+		6063CFCF212CF9EB00B7D639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063CFCE212CF9EB00B7D639 /* ViewController.swift */; };
+		6063CFD2212CF9EB00B7D639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6063CFD0212CF9EB00B7D639 /* Main.storyboard */; };
+		6063CFD4212CF9ED00B7D639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6063CFD3212CF9ED00B7D639 /* Assets.xcassets */; };
+		6063CFD7212CF9ED00B7D639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6063CFD5212CF9ED00B7D639 /* LaunchScreen.storyboard */; };
+		6063CFE2212CF9ED00B7D639 /* Hyperion_Plugin_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063CFE1212CF9ED00B7D639 /* Hyperion_Plugin_ExampleTests.swift */; };
+		6063CFED212CF9ED00B7D639 /* Hyperion_Plugin_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063CFEC212CF9ED00B7D639 /* Hyperion_Plugin_ExampleUITests.swift */; };
+		6063D009212D04EF00B7D639 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D001212D04EF00B7D639 /* RxSwift.framework */; };
+		6063D00F212D04EF00B7D639 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D007212D04EF00B7D639 /* RxCocoa.framework */; };
+		6063D012212D054300B7D639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063CFCE212CF9EB00B7D639 /* ViewController.swift */; };
+		6063D013212D054300B7D639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063CFCC212CF9EB00B7D639 /* AppDelegate.swift */; };
+		6063D015212D054300B7D639 /* AttributesInspector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D000212D04EF00B7D639 /* AttributesInspector.framework */; };
+		6063D016212D054300B7D639 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D001212D04EF00B7D639 /* RxSwift.framework */; };
+		6063D018212D054300B7D639 /* Measurements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D003212D04EF00B7D639 /* Measurements.framework */; };
+		6063D019212D054300B7D639 /* SlowAnimations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D004212D04EF00B7D639 /* SlowAnimations.framework */; };
+		6063D01B212D054300B7D639 /* HyperionCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D006212D04EF00B7D639 /* HyperionCore.framework */; };
+		6063D01C212D054300B7D639 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6063D007212D04EF00B7D639 /* RxCocoa.framework */; };
+		6063D01E212D054300B7D639 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6063CFD5212CF9ED00B7D639 /* LaunchScreen.storyboard */; };
+		6063D01F212D054300B7D639 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6063CFD3212CF9ED00B7D639 /* Assets.xcassets */; };
+		6063D020212D054300B7D639 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6063CFD0212CF9EB00B7D639 /* Main.storyboard */; };
+		6063D034212D0DCA00B7D639 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D033212D0DCA00B7D639 /* ViewModel.swift */; };
+		6063D035212D0DCA00B7D639 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D033212D0DCA00B7D639 /* ViewModel.swift */; };
+		6063D037212D0EA300B7D639 /* GithubRepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D036212D0EA300B7D639 /* GithubRepositoryModel.swift */; };
+		6063D038212D0EA300B7D639 /* GithubRepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D036212D0EA300B7D639 /* GithubRepositoryModel.swift */; };
+		6063D03A212D0F4100B7D639 /* GithubApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D039212D0F4100B7D639 /* GithubApiService.swift */; };
+		6063D03B212D0F4100B7D639 /* GithubApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D039212D0F4100B7D639 /* GithubApiService.swift */; };
+		6063D03F212D50CD00B7D639 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D03D212D50CD00B7D639 /* TableViewCell.swift */; };
+		6063D040212D50CD00B7D639 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063D03D212D50CD00B7D639 /* TableViewCell.swift */; };
+		6063D041212D50CD00B7D639 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6063D03E212D50CD00B7D639 /* TableViewCell.xib */; };
+		6063D042212D50CD00B7D639 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6063D03E212D50CD00B7D639 /* TableViewCell.xib */; };
+		609CD49A2135298F00F909E1 /* HYPAPIDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CD4992135298F00F909E1 /* HYPAPIDebugPlugin.swift */; };
+		609CD49C213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CD49B213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift */; };
+		609CD49E213529C000F909E1 /* HYPAPIDebugPluginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CD49D213529C000F909E1 /* HYPAPIDebugPluginModule.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6063CFDE212CF9ED00B7D639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6063CFC1212CF9EB00B7D639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6063CFC8212CF9EB00B7D639;
+			remoteInfo = "Hyperion-Plugin-Example";
+		};
+		6063CFE9212CF9ED00B7D639 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6063CFC1212CF9EB00B7D639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6063CFC8212CF9EB00B7D639;
+			remoteInfo = "Hyperion-Plugin-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6051F182212E58E400CD8192 /* GithubApiDebugService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiDebugService.swift; sourceTree = "<group>"; };
+		6051F186212E5C7F00CD8192 /* ServiceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModule.swift; sourceTree = "<group>"; };
+		6051F188212E5CE300CD8192 /* ServiceModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModule.swift; sourceTree = "<group>"; };
+		6051F1A6212EA39600CD8192 /* GithubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApi.swift; sourceTree = "<group>"; };
+		6063CFC9212CF9EB00B7D639 /* Hyperion-Plugin-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyperion-Plugin-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6063CFCC212CF9EB00B7D639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6063CFCE212CF9EB00B7D639 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6063CFD1212CF9EB00B7D639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6063CFD3212CF9ED00B7D639 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6063CFD6212CF9ED00B7D639 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6063CFD8212CF9ED00B7D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6063CFDD212CF9ED00B7D639 /* Hyperion-Plugin-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hyperion-Plugin-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6063CFE1212CF9ED00B7D639 /* Hyperion_Plugin_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyperion_Plugin_ExampleTests.swift; sourceTree = "<group>"; };
+		6063CFE3212CF9ED00B7D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6063CFE8212CF9ED00B7D639 /* Hyperion-Plugin-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hyperion-Plugin-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6063CFEC212CF9ED00B7D639 /* Hyperion_Plugin_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyperion_Plugin_ExampleUITests.swift; sourceTree = "<group>"; };
+		6063CFEE212CF9ED00B7D639 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6063D000212D04EF00B7D639 /* AttributesInspector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AttributesInspector.framework; path = Carthage/Build/iOS/AttributesInspector.framework; sourceTree = "<group>"; };
+		6063D001212D04EF00B7D639 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		6063D002212D04EF00B7D639 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		6063D003212D04EF00B7D639 /* Measurements.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Measurements.framework; path = Carthage/Build/iOS/Measurements.framework; sourceTree = "<group>"; };
+		6063D004212D04EF00B7D639 /* SlowAnimations.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlowAnimations.framework; path = Carthage/Build/iOS/SlowAnimations.framework; sourceTree = "<group>"; };
+		6063D005212D04EF00B7D639 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		6063D006212D04EF00B7D639 /* HyperionCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HyperionCore.framework; path = Carthage/Build/iOS/HyperionCore.framework; sourceTree = "<group>"; };
+		6063D007212D04EF00B7D639 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		6063D024212D054300B7D639 /* Hyperion-Plugin-Example Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyperion-Plugin-Example Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6063D033212D0DCA00B7D639 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6063D036212D0EA300B7D639 /* GithubRepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubRepositoryModel.swift; sourceTree = "<group>"; };
+		6063D039212D0F4100B7D639 /* GithubApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiService.swift; sourceTree = "<group>"; };
+		6063D03D212D50CD00B7D639 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6063D03E212D50CD00B7D639 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		609CD4992135298F00F909E1 /* HYPAPIDebugPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPAPIDebugPlugin.swift; sourceTree = "<group>"; };
+		609CD49B213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPAPIDebugPluginMenuItem.swift; sourceTree = "<group>"; };
+		609CD49D213529C000F909E1 /* HYPAPIDebugPluginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPAPIDebugPluginModule.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6063CFC6212CF9EB00B7D639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6063D009212D04EF00B7D639 /* RxSwift.framework in Frameworks */,
+				6063D00F212D04EF00B7D639 /* RxCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063CFDA212CF9ED00B7D639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063CFE5212CF9ED00B7D639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063D014212D054300B7D639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6063D015212D054300B7D639 /* AttributesInspector.framework in Frameworks */,
+				6063D016212D054300B7D639 /* RxSwift.framework in Frameworks */,
+				6063D018212D054300B7D639 /* Measurements.framework in Frameworks */,
+				6063D019212D054300B7D639 /* SlowAnimations.framework in Frameworks */,
+				6063D01B212D054300B7D639 /* HyperionCore.framework in Frameworks */,
+				6063D01C212D054300B7D639 /* RxCocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6051F184212E5C4800CD8192 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				6051F186212E5C7F00CD8192 /* ServiceModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		6051F185212E5C5900CD8192 /* DebugModule */ = {
+			isa = PBXGroup;
+			children = (
+				6051F188212E5CE300CD8192 /* ServiceModule.swift */,
+			);
+			path = DebugModule;
+			sourceTree = "<group>";
+		};
+		6063CFC0212CF9EB00B7D639 = {
+			isa = PBXGroup;
+			children = (
+				6063CFCB212CF9EB00B7D639 /* Hyperion-Plugin-Example */,
+				6063CFE0212CF9ED00B7D639 /* Hyperion-Plugin-ExampleTests */,
+				6063CFEB212CF9ED00B7D639 /* Hyperion-Plugin-ExampleUITests */,
+				6063CFCA212CF9EB00B7D639 /* Products */,
+				6063CFFF212D04EF00B7D639 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6063CFCA212CF9EB00B7D639 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6063CFC9212CF9EB00B7D639 /* Hyperion-Plugin-Example.app */,
+				6063CFDD212CF9ED00B7D639 /* Hyperion-Plugin-ExampleTests.xctest */,
+				6063CFE8212CF9ED00B7D639 /* Hyperion-Plugin-ExampleUITests.xctest */,
+				6063D024212D054300B7D639 /* Hyperion-Plugin-Example Debug.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6063CFCB212CF9EB00B7D639 /* Hyperion-Plugin-Example */ = {
+			isa = PBXGroup;
+			children = (
+				609CD4972135293D00F909E1 /* HyperionPlugin */,
+				6051F185212E5C5900CD8192 /* DebugModule */,
+				6051F184212E5C4800CD8192 /* Module */,
+				6063CFCC212CF9EB00B7D639 /* AppDelegate.swift */,
+				6063CFCE212CF9EB00B7D639 /* ViewController.swift */,
+				6063D03D212D50CD00B7D639 /* TableViewCell.swift */,
+				6063D03E212D50CD00B7D639 /* TableViewCell.xib */,
+				6063D033212D0DCA00B7D639 /* ViewModel.swift */,
+				6063D036212D0EA300B7D639 /* GithubRepositoryModel.swift */,
+				6051F1A6212EA39600CD8192 /* GithubApi.swift */,
+				6063D039212D0F4100B7D639 /* GithubApiService.swift */,
+				6051F182212E58E400CD8192 /* GithubApiDebugService.swift */,
+				6063CFD0212CF9EB00B7D639 /* Main.storyboard */,
+				6063CFD3212CF9ED00B7D639 /* Assets.xcassets */,
+				6063CFD5212CF9ED00B7D639 /* LaunchScreen.storyboard */,
+				6063CFD8212CF9ED00B7D639 /* Info.plist */,
+			);
+			path = "Hyperion-Plugin-Example";
+			sourceTree = "<group>";
+		};
+		6063CFE0212CF9ED00B7D639 /* Hyperion-Plugin-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				6063CFE1212CF9ED00B7D639 /* Hyperion_Plugin_ExampleTests.swift */,
+				6063CFE3212CF9ED00B7D639 /* Info.plist */,
+			);
+			path = "Hyperion-Plugin-ExampleTests";
+			sourceTree = "<group>";
+		};
+		6063CFEB212CF9ED00B7D639 /* Hyperion-Plugin-ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6063CFEC212CF9ED00B7D639 /* Hyperion_Plugin_ExampleUITests.swift */,
+				6063CFEE212CF9ED00B7D639 /* Info.plist */,
+			);
+			path = "Hyperion-Plugin-ExampleUITests";
+			sourceTree = "<group>";
+		};
+		6063CFFF212D04EF00B7D639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6063D000212D04EF00B7D639 /* AttributesInspector.framework */,
+				6063D006212D04EF00B7D639 /* HyperionCore.framework */,
+				6063D003212D04EF00B7D639 /* Measurements.framework */,
+				6063D005212D04EF00B7D639 /* RxBlocking.framework */,
+				6063D007212D04EF00B7D639 /* RxCocoa.framework */,
+				6063D001212D04EF00B7D639 /* RxSwift.framework */,
+				6063D002212D04EF00B7D639 /* RxTest.framework */,
+				6063D004212D04EF00B7D639 /* SlowAnimations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		609CD4972135293D00F909E1 /* HyperionPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				609CD4982135295900F909E1 /* APIDebug */,
+			);
+			path = HyperionPlugin;
+			sourceTree = "<group>";
+		};
+		609CD4982135295900F909E1 /* APIDebug */ = {
+			isa = PBXGroup;
+			children = (
+				609CD4992135298F00F909E1 /* HYPAPIDebugPlugin.swift */,
+				609CD49B213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift */,
+				609CD49D213529C000F909E1 /* HYPAPIDebugPluginModule.swift */,
+			);
+			path = APIDebug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6063CFC8212CF9EB00B7D639 /* Hyperion-Plugin-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6063CFF1212CF9ED00B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-Example" */;
+			buildPhases = (
+				6063CFC5212CF9EB00B7D639 /* Sources */,
+				6063CFC6212CF9EB00B7D639 /* Frameworks */,
+				6063CFC7212CF9EB00B7D639 /* Resources */,
+				6063D027212D05B900B7D639 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hyperion-Plugin-Example";
+			productName = "Hyperion-Plugin-Example";
+			productReference = 6063CFC9212CF9EB00B7D639 /* Hyperion-Plugin-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6063CFDC212CF9ED00B7D639 /* Hyperion-Plugin-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6063CFF4212CF9ED00B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-ExampleTests" */;
+			buildPhases = (
+				6063CFD9212CF9ED00B7D639 /* Sources */,
+				6063CFDA212CF9ED00B7D639 /* Frameworks */,
+				6063CFDB212CF9ED00B7D639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6063CFDF212CF9ED00B7D639 /* PBXTargetDependency */,
+			);
+			name = "Hyperion-Plugin-ExampleTests";
+			productName = "Hyperion-Plugin-ExampleTests";
+			productReference = 6063CFDD212CF9ED00B7D639 /* Hyperion-Plugin-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6063CFE7212CF9ED00B7D639 /* Hyperion-Plugin-ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6063CFF7212CF9ED00B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-ExampleUITests" */;
+			buildPhases = (
+				6063CFE4212CF9ED00B7D639 /* Sources */,
+				6063CFE5212CF9ED00B7D639 /* Frameworks */,
+				6063CFE6212CF9ED00B7D639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6063CFEA212CF9ED00B7D639 /* PBXTargetDependency */,
+			);
+			name = "Hyperion-Plugin-ExampleUITests";
+			productName = "Hyperion-Plugin-ExampleUITests";
+			productReference = 6063CFE8212CF9ED00B7D639 /* Hyperion-Plugin-ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6063D010212D054300B7D639 /* Hyperion-Plugin-Example Debug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6063D021212D054300B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-Example Debug" */;
+			buildPhases = (
+				6063D011212D054300B7D639 /* Sources */,
+				6063D014212D054300B7D639 /* Frameworks */,
+				6063D01D212D054300B7D639 /* Resources */,
+				6063D026212D058000B7D639 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hyperion-Plugin-Example Debug";
+			productName = "Hyperion-Plugin-Example";
+			productReference = 6063D024212D054300B7D639 /* Hyperion-Plugin-Example Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6063CFC1212CF9EB00B7D639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Hiroshi Hosoda";
+				TargetAttributes = {
+					6063CFC8212CF9EB00B7D639 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6063CFDC212CF9ED00B7D639 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6063CFC8212CF9EB00B7D639;
+					};
+					6063CFE7212CF9ED00B7D639 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6063CFC8212CF9EB00B7D639;
+					};
+				};
+			};
+			buildConfigurationList = 6063CFC4212CF9EB00B7D639 /* Build configuration list for PBXProject "Hyperion-Plugin-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6063CFC0212CF9EB00B7D639;
+			productRefGroup = 6063CFCA212CF9EB00B7D639 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6063CFC8212CF9EB00B7D639 /* Hyperion-Plugin-Example */,
+				6063D010212D054300B7D639 /* Hyperion-Plugin-Example Debug */,
+				6063CFDC212CF9ED00B7D639 /* Hyperion-Plugin-ExampleTests */,
+				6063CFE7212CF9ED00B7D639 /* Hyperion-Plugin-ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6063CFC7212CF9EB00B7D639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6063CFD7212CF9ED00B7D639 /* LaunchScreen.storyboard in Resources */,
+				6063D041212D50CD00B7D639 /* TableViewCell.xib in Resources */,
+				6063CFD4212CF9ED00B7D639 /* Assets.xcassets in Resources */,
+				6063CFD2212CF9EB00B7D639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063CFDB212CF9ED00B7D639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063CFE6212CF9ED00B7D639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063D01D212D054300B7D639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6063D01E212D054300B7D639 /* LaunchScreen.storyboard in Resources */,
+				6063D042212D50CD00B7D639 /* TableViewCell.xib in Resources */,
+				6063D01F212D054300B7D639 /* Assets.xcassets in Resources */,
+				6063D020212D054300B7D639 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6063D026212D058000B7D639 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/HyperionCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AttributesInspector.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Measurements.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SlowAnimations.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		6063D027212D05B900B7D639 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6063CFC5212CF9EB00B7D639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6063CFCF212CF9EB00B7D639 /* ViewController.swift in Sources */,
+				6063D034212D0DCA00B7D639 /* ViewModel.swift in Sources */,
+				6063D037212D0EA300B7D639 /* GithubRepositoryModel.swift in Sources */,
+				6063D03F212D50CD00B7D639 /* TableViewCell.swift in Sources */,
+				6063CFCD212CF9EB00B7D639 /* AppDelegate.swift in Sources */,
+				6063D03A212D0F4100B7D639 /* GithubApiService.swift in Sources */,
+				6051F187212E5C7F00CD8192 /* ServiceModule.swift in Sources */,
+				6051F1A7212EA39600CD8192 /* GithubApi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063CFD9212CF9ED00B7D639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6063CFE2212CF9ED00B7D639 /* Hyperion_Plugin_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063CFE4212CF9ED00B7D639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6063CFED212CF9ED00B7D639 /* Hyperion_Plugin_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6063D011212D054300B7D639 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6051F1A8212EA39600CD8192 /* GithubApi.swift in Sources */,
+				6063D012212D054300B7D639 /* ViewController.swift in Sources */,
+				6063D035212D0DCA00B7D639 /* ViewModel.swift in Sources */,
+				609CD49E213529C000F909E1 /* HYPAPIDebugPluginModule.swift in Sources */,
+				6063D038212D0EA300B7D639 /* GithubRepositoryModel.swift in Sources */,
+				6051F183212E58E400CD8192 /* GithubApiDebugService.swift in Sources */,
+				6063D040212D50CD00B7D639 /* TableViewCell.swift in Sources */,
+				6051F189212E5CE300CD8192 /* ServiceModule.swift in Sources */,
+				609CD49A2135298F00F909E1 /* HYPAPIDebugPlugin.swift in Sources */,
+				6063D013212D054300B7D639 /* AppDelegate.swift in Sources */,
+				609CD49C213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift in Sources */,
+				6063D03B212D0F4100B7D639 /* GithubApiService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6063CFDF212CF9ED00B7D639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6063CFC8212CF9EB00B7D639 /* Hyperion-Plugin-Example */;
+			targetProxy = 6063CFDE212CF9ED00B7D639 /* PBXContainerItemProxy */;
+		};
+		6063CFEA212CF9ED00B7D639 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6063CFC8212CF9EB00B7D639 /* Hyperion-Plugin-Example */;
+			targetProxy = 6063CFE9212CF9ED00B7D639 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6063CFD0212CF9EB00B7D639 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6063CFD1212CF9EB00B7D639 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6063CFD5212CF9ED00B7D639 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6063CFD6212CF9ED00B7D639 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6063CFEF212CF9ED00B7D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6063CFF0212CF9ED00B7D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6063CFF2212CF9ED00B7D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Hyperion-Plugin-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6063CFF3212CF9ED00B7D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Hyperion-Plugin-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6063CFF5212CF9ED00B7D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hyperion-Plugin-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyperion-Plugin-Example.app/Hyperion-Plugin-Example";
+			};
+			name = Debug;
+		};
+		6063CFF6212CF9ED00B7D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hyperion-Plugin-ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyperion-Plugin-Example.app/Hyperion-Plugin-Example";
+			};
+			name = Release;
+		};
+		6063CFF8212CF9ED00B7D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hyperion-Plugin-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hyperion-Plugin-Example";
+			};
+			name = Debug;
+		};
+		6063CFF9212CF9ED00B7D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hyperion-Plugin-ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hyperion-Plugin-Example";
+			};
+			name = Release;
+		};
+		6063D022212D054300B7D639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Hyperion-Plugin-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6063D023212D054300B7D639 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Hyperion-Plugin-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.hiroshi.Hyperion-Plugin-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6063CFC4212CF9EB00B7D639 /* Build configuration list for PBXProject "Hyperion-Plugin-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6063CFEF212CF9ED00B7D639 /* Debug */,
+				6063CFF0212CF9ED00B7D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6063CFF1212CF9ED00B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6063CFF2212CF9ED00B7D639 /* Debug */,
+				6063CFF3212CF9ED00B7D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6063CFF4212CF9ED00B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6063CFF5212CF9ED00B7D639 /* Debug */,
+				6063CFF6212CF9ED00B7D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6063CFF7212CF9ED00B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6063CFF8212CF9ED00B7D639 /* Debug */,
+				6063CFF9212CF9ED00B7D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6063D021212D054300B7D639 /* Build configuration list for PBXNativeTarget "Hyperion-Plugin-Example Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6063D022212D054300B7D639 /* Debug */,
+				6063D023212D054300B7D639 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6063CFC1212CF9EB00B7D639 /* Project object */;
+}

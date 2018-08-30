@@ -1,0 +1,522 @@
+BCSymbolMap Version: 2.0
+-[HYPOverlayDebuggingViewController supportedInterfaceOrientations]
+-[HYPOverlayDebuggingViewController preferredStatusBarStyle]
+-[HYPOverlayDebuggingViewController shouldAutorotate]
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/OverlayDebuggingWindow/HYPOverlayDebuggingViewController.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/HyperionCore
+-[HYPViewSelectionTableViewController initWithViewSelectionOptions:delegate:]
+-[HYPViewSelectionTableViewController viewDidLoad]
+-[HYPViewSelectionTableViewController didReceiveMemoryWarning]
+-[HYPViewSelectionTableViewController tableView:numberOfRowsInSection:]
+-[HYPViewSelectionTableViewController tableView:cellForRowAtIndexPath:]
+-[HYPViewSelectionTableViewController tableView:didSelectRowAtIndexPath:]
+-[HYPViewSelectionTableViewController views]
+-[HYPViewSelectionTableViewController setViews:]
+-[HYPViewSelectionTableViewController delegate]
+-[HYPViewSelectionTableViewController setDelegate:]
+-[HYPViewSelectionTableViewController .cxx_destruct]
+_OBJC_IVAR_$_HYPViewSelectionTableViewController._delegate
+_OBJC_IVAR_$_HYPViewSelectionTableViewController._views
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPViewSelectionTableViewController.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/HYPPluginContainerView.m
+-[HYPPluginMenuItem init]
+-[HYPPluginMenuItem pluginTapped]
+-[HYPPluginMenuItem bindWithTitle:image:]
+-[HYPPluginMenuItem setSelected:animated:]
+-[HYPPluginMenuItem setHeight:]
+-[HYPPluginMenuItem delegate]
+-[HYPPluginMenuItem setDelegate:]
+-[HYPPluginMenuItem isSelected]
+-[HYPPluginMenuItem tapGesture]
+-[HYPPluginMenuItem setTapGesture:]
+-[HYPPluginMenuItem titleLabel]
+-[HYPPluginMenuItem setTitleLabel:]
+-[HYPPluginMenuItem pluginImageView]
+-[HYPPluginMenuItem setPluginImageView:]
+-[HYPPluginMenuItem height]
+-[HYPPluginMenuItem heightConstraint]
+-[HYPPluginMenuItem setHeightConstraint:]
+-[HYPPluginMenuItem .cxx_destruct]
+_OBJC_IVAR_$_HYPPluginMenuItem._height
+_OBJC_IVAR_$_HYPPluginMenuItem._selected
+_OBJC_IVAR_$_HYPPluginMenuItem._delegate
+_OBJC_IVAR_$_HYPPluginMenuItem._tapGesture
+_OBJC_IVAR_$_HYPPluginMenuItem._titleLabel
+_OBJC_IVAR_$_HYPPluginMenuItem._pluginImageView
+_OBJC_IVAR_$_HYPPluginMenuItem._heightConstraint
+l_OBJC_PROTOCOL_$_HYPPluginMenuItem
+l_OBJC_LABEL_PROTOCOL_$_HYPPluginMenuItem
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/HYPPluginMenuItem.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/HYPPluginMenuItem.h
+-[HYPSnapshotDebuggingWindow initWithFrame:]
+-[HYPSnapshotDebuggingWindow initWithAttachedWindow:]
+-[HYPSnapshotDebuggingWindow init]
+-[HYPSnapshotDebuggingWindow setup]
+-[HYPSnapshotDebuggingWindow togglePluginDrawer]
+-[HYPSnapshotDebuggingWindow deactivate]
+-[HYPSnapshotDebuggingWindow snapshotContainer]
+-[HYPSnapshotDebuggingWindow setHidden:]
+-[HYPSnapshotDebuggingWindow cleanup]
+-[HYPSnapshotDebuggingWindow makeKeyWindow]
+-[HYPSnapshotDebuggingWindow overlayVC]
+-[HYPSnapshotDebuggingWindow setOverlayVC:]
+-[HYPSnapshotDebuggingWindow lastEvent]
+-[HYPSnapshotDebuggingWindow setLastEvent:]
+-[HYPSnapshotDebuggingWindow highlightView]
+-[HYPSnapshotDebuggingWindow setHighlightView:]
+-[HYPSnapshotDebuggingWindow lastSelectedView]
+-[HYPSnapshotDebuggingWindow setLastSelectedView:]
+-[HYPSnapshotDebuggingWindow twoFingerTapRecognizer]
+-[HYPSnapshotDebuggingWindow setTwoFingerTapRecognizer:]
+-[HYPSnapshotDebuggingWindow threeFingerTapRecognizer]
+-[HYPSnapshotDebuggingWindow setThreeFingerTapRecognizer:]
+-[HYPSnapshotDebuggingWindow edgeSwipeRecognizer]
+-[HYPSnapshotDebuggingWindow setEdgeSwipeRecognizer:]
+-[HYPSnapshotDebuggingWindow start]
+-[HYPSnapshotDebuggingWindow setStart:]
+-[HYPSnapshotDebuggingWindow end]
+-[HYPSnapshotDebuggingWindow setEnd:]
+-[HYPSnapshotDebuggingWindow associatedFlag]
+-[HYPSnapshotDebuggingWindow setAssociatedFlag:]
+-[HYPSnapshotDebuggingWindow attachedWindow]
+-[HYPSnapshotDebuggingWindow setAttachedWindow:]
+-[HYPSnapshotDebuggingWindow deactivateDrawerPanGesture]
+-[HYPSnapshotDebuggingWindow setDeactivateDrawerPanGesture:]
+-[HYPSnapshotDebuggingWindow dismissDrawerTapGesture]
+-[HYPSnapshotDebuggingWindow setDismissDrawerTapGesture:]
+-[HYPSnapshotDebuggingWindow fadeViewTapRecognizer]
+-[HYPSnapshotDebuggingWindow setFadeViewTapRecognizer:]
+-[HYPSnapshotDebuggingWindow .cxx_destruct]
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._attachedWindow
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._overlayVC
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._lastEvent
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._highlightView
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._lastSelectedView
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._twoFingerTapRecognizer
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._threeFingerTapRecognizer
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._edgeSwipeRecognizer
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._start
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._end
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._associatedFlag
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._deactivateDrawerPanGesture
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._dismissDrawerTapGesture
+_OBJC_IVAR_$_HYPSnapshotDebuggingWindow._fadeViewTapRecognizer
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIGestureRecognizerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIGestureRecognizerDelegate
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPSnapshotDebuggingWindow.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPSnapshotDebuggingWindow.h
+-[HYPInAppOverlayContainer init]
+-[HYPInAppOverlayContainer hitTest:withEvent:]
+-[HYPInAppOverlayContainer setOverlayModule:]
+-[HYPInAppOverlayContainer overlayModule]
+-[HYPInAppOverlayContainer delegate]
+-[HYPInAppOverlayContainer setDelegate:]
+-[HYPInAppOverlayContainer listeners]
+-[HYPInAppOverlayContainer setListeners:]
+-[HYPInAppOverlayContainer currentPluginContainer]
+-[HYPInAppOverlayContainer setCurrentPluginContainer:]
+-[HYPInAppOverlayContainer .cxx_destruct]
+_OBJC_IVAR_$_HYPInAppOverlayContainer._listeners
+_OBJC_IVAR_$_HYPInAppOverlayContainer._overlayModule
+_OBJC_IVAR_$_HYPInAppOverlayContainer._currentPluginContainer
+_OBJC_IVAR_$_HYPInAppOverlayContainer._delegate
+l_OBJC_PROTOCOL_$_HYPOverlayContainer
+l_OBJC_LABEL_PROTOCOL_$_HYPOverlayContainer
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/OverlayDebuggingWindow/HYPInAppOverlayContainer.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/OverlayDebuggingWindow/HYPInAppOverlayContainer.h
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/HYPOverlayContainer.h
+-[HYPPluginExtension initWithSnapshotContainer:overlayContainer:hypeWindow:attachedWindow:]
+-[HYPPluginExtension attachedWindow]
+-[HYPPluginExtension hypeWindow]
+-[HYPPluginExtension snapshotContainer]
+-[HYPPluginExtension overlayContainer]
+-[HYPPluginExtension presentViewControllerOverDrawer:animated:]
+-[HYPPluginExtension setSnapshotContainer:]
+-[HYPPluginExtension setOverlayContainer:]
+-[HYPPluginExtension setHypeWindow:]
+-[HYPPluginExtension setAttachedWindow:]
+-[HYPPluginExtension .cxx_destruct]
+_OBJC_IVAR_$_HYPPluginExtension._snapshotContainer
+_OBJC_IVAR_$_HYPPluginExtension._hypeWindow
+_OBJC_IVAR_$_HYPPluginExtension._overlayContainer
+_OBJC_IVAR_$_HYPPluginExtension._attachedWindow
+l_OBJC_PROTOCOL_$_HYPPluginExtension
+l_OBJC_LABEL_PROTOCOL_$_HYPPluginExtension
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/HYPPluginExtensionImp.m
++[UIWindow(Swizzling) load]
+___27+[UIWindow(Swizzling) load]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[UIWindow(Swizzling) xxx_makeKeyWindow]
+-[UIWindow(Swizzling) canAttachToWindow:]
+_load.onceToken
+___block_descriptor_tmp
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Swizzling/UIWindow+Swizzling.m
+__destroy_helper_block_
+__copy_helper_block_
+__27+[UIWindow(Swizzling) load]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/dispatch/once.h
++[HYPPluginHelper findSubviewsInView:intersectingPoint:]
++[HYPPluginHelper view:surrondsPoint:]
++[HYPPluginHelper blacklistedViews]
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/HYPPluginHelper.m
++[UIApplication(Swizzling) load]
+___32+[UIApplication(Swizzling) load]_block_invoke
+-[UIApplication(Swizzling) xxx_sendEvent:]
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Swizzling/UIApplication+Swizzling.m
+__32+[UIApplication(Swizzling) load]_block_invoke
+-[PluginContainerView initWithPluginModule:pluginView:]
+-[PluginContainerView pluginView]
+-[PluginContainerView setPluginView:]
+-[PluginContainerView pluginModule]
+-[PluginContainerView setPluginModule:]
+-[PluginContainerView .cxx_destruct]
+-[PluginListViewController viewDidLoad]
+-[PluginListViewController loadTabs]
+-[PluginListViewController addEmptyState]
+-[PluginListViewController linkTap:]
+-[PluginListViewController setPluginModules:]
+-[PluginListViewController pluginModules]
+-[PluginListViewController containerViews]
+-[PluginListViewController setContainerViews:]
+-[PluginListViewController pluginList]
+-[PluginListViewController setPluginList:]
+-[PluginListViewController pluginScrollView]
+-[PluginListViewController setPluginScrollView:]
+-[PluginListViewController .cxx_destruct]
+_OBJC_IVAR_$_PluginContainerView._pluginView
+_OBJC_IVAR_$_PluginContainerView._pluginModule
+_OBJC_IVAR_$_PluginListViewController._pluginScrollView
+_OBJC_IVAR_$_PluginListViewController._pluginModules
+_OBJC_IVAR_$_PluginListViewController._containerViews
+_OBJC_IVAR_$_PluginListViewController._pluginList
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/PluginListViewController.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/PluginListViewController.h
+-[HYPSnapshotViewController initWithDebuggingWindow:attachedWindow:]
+-[HYPSnapshotViewController viewDidLoad]
+-[HYPSnapshotViewController setup]
+-[HYPSnapshotViewController setupGestureRecognizers:]
+-[HYPSnapshotViewController scrollViewDidScroll:]
+-[HYPSnapshotViewController scrollViewDidZoom:]
+-[HYPSnapshotViewController initializePlugins]
+-[HYPSnapshotViewController viewForZoomingInScrollView:]
+-[HYPSnapshotViewController takeSnapshot]
+-[HYPSnapshotViewController togglePluginDrawer]
+-[HYPSnapshotViewController activate]
+___37-[HYPSnapshotViewController activate]_block_invoke
+-[HYPSnapshotViewController deactivate]
+___39-[HYPSnapshotViewController deactivate]_block_invoke
+___copy_helper_block_.174
+___destroy_helper_block_.175
+___39-[HYPSnapshotViewController deactivate]_block_invoke.177
+___copy_helper_block_.184
+___destroy_helper_block_.185
+-[HYPSnapshotViewController supportedInterfaceOrientations]
+-[HYPSnapshotViewController shouldAutorotate]
+-[HYPSnapshotViewController gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:]
+-[HYPSnapshotViewController overlayModuleChanged:]
+-[HYPSnapshotViewController presentViewListPopoverForPoint:delegate:]
+-[HYPSnapshotViewController presentPopover:recommendedHeight:forView:]
+-[HYPSnapshotViewController presentPopover:recommendedHeight:atPosition:]
+-[HYPSnapshotViewController presentPopover:recommendedHeight:atPosition:recommendedArrowPosition:]
+-[HYPSnapshotViewController placePopover:atPoint:]
+-[HYPSnapshotViewController dismissCurrentPopover]
+-[HYPSnapshotViewController popoverRequestedDismissal]
+-[HYPSnapshotViewController snapshotContainer]
+-[HYPSnapshotViewController updatePopOverFrame:]
+-[HYPSnapshotViewController viewWillTransitionToSize:withTransitionCoordinator:]
+___80-[HYPSnapshotViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+___copy_helper_block_.253
+___destroy_helper_block_.254
+___80-[HYPSnapshotViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.257
+___copy_helper_block_.260
+___destroy_helper_block_.261
+-[HYPSnapshotViewController presentViewController:animated:]
+-[HYPSnapshotViewController snapshotAdjustedSize]
+-[HYPSnapshotViewController popover:shouldGoAboveAnchorWithContainerSize:]
+-[HYPSnapshotViewController overlayModule]
+-[HYPSnapshotViewController setOverlayModule:]
+-[HYPSnapshotViewController menuContainer]
+-[HYPSnapshotViewController setMenuContainer:]
+-[HYPSnapshotViewController panGesture]
+-[HYPSnapshotViewController setPanGesture:]
+-[HYPSnapshotViewController twoFingerTapRecognizer]
+-[HYPSnapshotViewController setTwoFingerTapRecognizer:]
+-[HYPSnapshotViewController threeFingerTapRecognizer]
+-[HYPSnapshotViewController setThreeFingerTapRecognizer:]
+-[HYPSnapshotViewController edgeSwipeRecognizer]
+-[HYPSnapshotViewController setEdgeSwipeRecognizer:]
+-[HYPSnapshotViewController scrollView]
+-[HYPSnapshotViewController setScrollView:]
+-[HYPSnapshotViewController scrollViewContainer]
+-[HYPSnapshotViewController setScrollViewContainer:]
+-[HYPSnapshotViewController currentSnapshotView]
+-[HYPSnapshotViewController setCurrentSnapshotView:]
+-[HYPSnapshotViewController pluginExtension]
+-[HYPSnapshotViewController setPluginExtension:]
+-[HYPSnapshotViewController pluginModules]
+-[HYPSnapshotViewController setPluginModules:]
+-[HYPSnapshotViewController pluginListViewController]
+-[HYPSnapshotViewController setPluginListViewController:]
+-[HYPSnapshotViewController snapshotDebuggingWindow]
+-[HYPSnapshotViewController setSnapshotDebuggingWindow:]
+-[HYPSnapshotViewController deactivateDrawerPanGesture]
+-[HYPSnapshotViewController setDeactivateDrawerPanGesture:]
+-[HYPSnapshotViewController dismissDrawerTapGesture]
+-[HYPSnapshotViewController setDismissDrawerTapGesture:]
+-[HYPSnapshotViewController drawerActive]
+-[HYPSnapshotViewController setDrawerActive:]
+-[HYPSnapshotViewController attachedWindow]
+-[HYPSnapshotViewController setAttachedWindow:]
+-[HYPSnapshotViewController snapshotContainerView]
+-[HYPSnapshotViewController setSnapshotContainerView:]
+-[HYPSnapshotViewController contextMenu]
+-[HYPSnapshotViewController setContextMenu:]
+-[HYPSnapshotViewController contextMenuPosition]
+-[HYPSnapshotViewController setContextMenuPosition:]
+-[HYPSnapshotViewController .cxx_destruct]
+_OBJC_IVAR_$_HYPSnapshotViewController._snapshotDebuggingWindow
+_OBJC_IVAR_$_HYPSnapshotViewController._attachedWindow
+_OBJC_IVAR_$_HYPSnapshotViewController._dismissDrawerTapGesture
+___block_descriptor_tmp.176
+___block_descriptor_tmp.187
+___block_descriptor_tmp.256
+___block_descriptor_tmp.262
+_OBJC_IVAR_$_HYPSnapshotViewController.overlayModule
+_OBJC_IVAR_$_HYPSnapshotViewController._menuContainer
+_OBJC_IVAR_$_HYPSnapshotViewController._panGesture
+_OBJC_IVAR_$_HYPSnapshotViewController._twoFingerTapRecognizer
+_OBJC_IVAR_$_HYPSnapshotViewController._threeFingerTapRecognizer
+_OBJC_IVAR_$_HYPSnapshotViewController._edgeSwipeRecognizer
+_OBJC_IVAR_$_HYPSnapshotViewController._scrollView
+_OBJC_IVAR_$_HYPSnapshotViewController._scrollViewContainer
+_OBJC_IVAR_$_HYPSnapshotViewController._currentSnapshotView
+_OBJC_IVAR_$_HYPSnapshotViewController._pluginExtension
+_OBJC_IVAR_$_HYPSnapshotViewController._pluginModules
+_OBJC_IVAR_$_HYPSnapshotViewController._pluginListViewController
+_OBJC_IVAR_$_HYPSnapshotViewController._deactivateDrawerPanGesture
+_OBJC_IVAR_$_HYPSnapshotViewController._drawerActive
+_OBJC_IVAR_$_HYPSnapshotViewController._snapshotContainerView
+_OBJC_IVAR_$_HYPSnapshotViewController._contextMenu
+_OBJC_IVAR_$_HYPSnapshotViewController._contextMenuPosition
+l_OBJC_PROTOCOL_$_UINavigationControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_UINavigationControllerDelegate
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_HYPSnapshotContainer
+l_OBJC_LABEL_PROTOCOL_$_HYPSnapshotContainer
+l_OBJC_PROTOCOL_$_HYPSnapshotContainerDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPSnapshotContainerDelegate
+l_OBJC_PROTOCOL_$_HYPPopoverViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPPopoverViewControllerDelegate
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPSnapshotViewController.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPSnapshotViewController.h
+CGSizeMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__80-[HYPSnapshotViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke.257
+__80-[HYPSnapshotViewController viewWillTransitionToSize:withTransitionCoordinator:]_block_invoke
+CGRectMake
+__39-[HYPSnapshotViewController deactivate]_block_invoke.177
+__39-[HYPSnapshotViewController deactivate]_block_invoke
+__37-[HYPSnapshotViewController activate]_block_invoke
+-[HYPPluginModule initWithExtension:]
+-[HYPPluginModule pluginMenuItem]
+-[HYPPluginModule pluginMenuItemTitle]
+-[HYPPluginModule pluginMenuItemImage]
+-[HYPPluginModule shouldHideDrawerOnSelection]
+-[HYPPluginModule pluginMenuItemSelected:]
+-[HYPPluginModule extension]
+-[HYPPluginModule active]
+-[HYPPluginModule .cxx_destruct]
+_OBJC_IVAR_$_HYPPluginModule._extension
+_OBJC_IVAR_$_HYPPluginModule._pluginMenuItem
+_OBJC_IVAR_$_HYPPluginModule._active
+l_OBJC_PROTOCOL_$_HYPPluginMenuItemDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPPluginMenuItemDelegate
+l_OBJC_PROTOCOL_$_HYPPluginModule
+l_OBJC_LABEL_PROTOCOL_$_HYPPluginModule
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/HYPPluginModule.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/HYPPluginModule.h
+-[HYPListenerContainer initWithListener:]
+-[HYPListenerContainer listener]
+-[HYPListenerContainer setListener:]
+-[HYPListenerContainer .cxx_destruct]
+_OBJC_IVAR_$_HYPListenerContainer._listener
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/HYPListenerContainer.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/HYPListenerContainer.h
++[HyperionWindowManager sharedInstance]
+___39+[HyperionWindowManager sharedInstance]_block_invoke
+-[HyperionWindowManager attachOverlayDebuggingWindowToWindow:]
+-[HyperionWindowManager attachSnapshotDebuggingWindowToWindow:]
+-[HyperionWindowManager togglePluginDrawer]
+-[HyperionWindowManager currentSnapshotWindow]
+-[HyperionWindowManager currentOverlayWindow]
+-[HyperionWindowManager decideNewKeyWindow]
+-[HyperionWindowManager overlayWindow]
+-[HyperionWindowManager setOverlayWindow:]
+-[HyperionWindowManager snapshotWindow]
+-[HyperionWindowManager setSnapshotWindow:]
+-[HyperionWindowManager currentAttachedWindow]
+-[HyperionWindowManager setCurrentAttachedWindow:]
+-[HyperionWindowManager .cxx_destruct]
+_sharedInstance.once
+___block_literal_global
+_sharedWindowManager
+_OBJC_IVAR_$_HyperionWindowManager._currentAttachedWindow
+_OBJC_IVAR_$_HyperionWindowManager._overlayWindow
+_OBJC_IVAR_$_HyperionWindowManager._snapshotWindow
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/HyperionWindowManager.m
+__39+[HyperionWindowManager sharedInstance]_block_invoke
+-[HYPSnapshotPluginModule pluginMenuItemSelected:]
+-[HYPSnapshotPluginModule active]
+-[HYPSnapshotPluginModule activateSnapshotPluginViewWithContext:]
+-[HYPSnapshotPluginModule deactivateSnapshotPluginView]
+-[HYPSnapshotPluginModule snapshotContextWillTransitionToSize:withTransitionCoordinator:]
+-[HYPSnapshotPluginModule snapshotContextDidTransitionToSize:]
+-[HYPSnapshotPluginModule snapshotPluginView]
+-[HYPSnapshotPluginModule .cxx_destruct]
+_OBJC_IVAR_$_HYPSnapshotPluginModule._snapshotPluginView
+l_OBJC_PROTOCOL_$_HYPSnapshotPluginViewProvider
+l_OBJC_LABEL_PROTOCOL_$_HYPSnapshotPluginViewProvider
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/SnapShotPlugin/HYPSnapshotPluginModule.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/SnapShotPlugin/HYPSnapshotPluginModule.h
+-[HYPOverlayPluginModule pluginMenuItemSelected:]
+-[HYPOverlayPluginModule active]
+-[HYPOverlayPluginModule shouldHideDrawerOnSelection]
+-[HYPOverlayPluginModule activateOverlayPluginViewWithContext:]
+-[HYPOverlayPluginModule deactivateOverlayPluginView]
+-[HYPOverlayPluginModule pluginMenuItem]
+-[HYPOverlayPluginModule overlayPluginView]
+-[HYPOverlayPluginModule .cxx_destruct]
+_OBJC_IVAR_$_HYPOverlayPluginModule._pluginMenuItem
+_OBJC_IVAR_$_HYPOverlayPluginModule._overlayPluginView
+l_OBJC_PROTOCOL_$_HYPOverlayPluginViewProvider
+l_OBJC_LABEL_PROTOCOL_$_HYPOverlayPluginViewProvider
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/OverlayPlugin/HYPOverlayPluginModule.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/OverlayPlugin/HYPOverlayPluginModule.h
+-[HYPSnapshotContainer setOverlayModule:]
+-[HYPSnapshotContainer presentPopover:recommendedHeight:atPosition:]
+-[HYPSnapshotContainer presentViewListPopoverForPoint:delegate:]
+-[HYPSnapshotContainer presentPopover:recommendedHeight:forView:]
+-[HYPSnapshotContainer dismissCurrentPopover]
+-[HYPSnapshotContainer setSnapshotView:]
+-[HYPSnapshotContainer presentViewController:animated:]
+-[HYPSnapshotContainer overlayModule]
+-[HYPSnapshotContainer delegate]
+-[HYPSnapshotContainer setDelegate:]
+-[HYPSnapshotContainer snapshotView]
+-[HYPSnapshotContainer currentOverlay]
+-[HYPSnapshotContainer setCurrentOverlay:]
+-[HYPSnapshotContainer listeners]
+-[HYPSnapshotContainer setListeners:]
+-[HYPSnapshotContainer currentPluginContainer]
+-[HYPSnapshotContainer setCurrentPluginContainer:]
+-[HYPSnapshotContainer .cxx_destruct]
+_OBJC_IVAR_$_HYPSnapshotContainer._overlayModule
+_OBJC_IVAR_$_HYPSnapshotContainer._currentPluginContainer
+_OBJC_IVAR_$_HYPSnapshotContainer._snapshotView
+_OBJC_IVAR_$_HYPSnapshotContainer._currentOverlay
+_OBJC_IVAR_$_HYPSnapshotContainer._delegate
+_OBJC_IVAR_$_HYPSnapshotContainer._listeners
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPSnapshotContainer.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPSnapshotContainer.h
++[HyperionManager sharedInstance]
+___33+[HyperionManager sharedInstance]_block_invoke
+-[HyperionManager loadSettings]
+-[HyperionManager changeSettingsForConfiguration:]
+-[HyperionManager attachToWindow:]
+-[HyperionManager setActivationGesture:]
+-[HyperionManager retrievePluginClasses]
+-[HyperionManager retrievePluginModules]
+-[HyperionManager forceRefreshPluginModules]
+___44-[HyperionManager forceRefreshPluginModules]_block_invoke
+-[HyperionManager togglePluginDrawer]
+-[HyperionManager configurationPath]
+-[HyperionManager activationGestures]
+-[HyperionManager pluginModules]
+-[HyperionManager setPluginModules:]
+-[HyperionManager key]
+-[HyperionManager setKey:]
+-[HyperionManager .cxx_destruct]
+_sharedManager
+_OBJC_IVAR_$_HyperionManager._activationGestures
+l_OBJC_PROTOCOL_$_HYPPlugin
+l_OBJC_LABEL_PROTOCOL_$_HYPPlugin
+l_OBJC_PROTOCOL_REFERENCE_$_HYPPlugin
+___block_descriptor_tmp.112
+___block_literal_global.113
+_OBJC_IVAR_$_HyperionManager._pluginModules
+_OBJC_IVAR_$_HyperionManager._key
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/HyperionManager.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/HyperionManager.h
+__44-[HyperionManager forceRefreshPluginModules]_block_invoke
+__33+[HyperionManager sharedInstance]_block_invoke
+-[HYPPopoverViewController initWithViewController:]
+-[HYPPopoverViewController viewDidLoad]
+-[HYPPopoverViewController setArrowPosition:offset:]
+-[HYPPopoverViewController closeButtonPressed]
+-[HYPPopoverViewController containerView]
+-[HYPPopoverViewController setContainerView:]
+-[HYPPopoverViewController viewController]
+-[HYPPopoverViewController setViewController:]
+-[HYPPopoverViewController anchorPoint]
+-[HYPPopoverViewController setAnchorPoint:]
+-[HYPPopoverViewController topAnchor]
+-[HYPPopoverViewController setTopAnchor:]
+-[HYPPopoverViewController bottomAnchor]
+-[HYPPopoverViewController setBottomAnchor:]
+-[HYPPopoverViewController shapeLayer]
+-[HYPPopoverViewController setShapeLayer:]
+-[HYPPopoverViewController arrowPosition]
+-[HYPPopoverViewController setArrowPosition:]
+-[HYPPopoverViewController closeButton]
+-[HYPPopoverViewController setCloseButton:]
+-[HYPPopoverViewController delegate]
+-[HYPPopoverViewController setDelegate:]
+-[HYPPopoverViewController .cxx_destruct]
+_OBJC_IVAR_$_HYPPopoverViewController._viewController
+_OBJC_IVAR_$_HYPPopoverViewController._arrowPosition
+_OBJC_IVAR_$_HYPPopoverViewController._closeButton
+_OBJC_IVAR_$_HYPPopoverViewController._containerView
+_OBJC_IVAR_$_HYPPopoverViewController._anchorPoint
+_OBJC_IVAR_$_HYPPopoverViewController._topAnchor
+_OBJC_IVAR_$_HYPPopoverViewController._bottomAnchor
+_OBJC_IVAR_$_HYPPopoverViewController._shapeLayer
+_OBJC_IVAR_$_HYPPopoverViewController._delegate
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPPopoverViewController.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/SnapShotDebuggingWindow/HYPPopoverViewController.h
+CGPointMake
+-[HYPSnapshotInteractionView initWithExtension:]
+-[HYPSnapshotInteractionView interactionViewWillTransitionToSize:withTransitionCoordinator:]
+-[HYPSnapshotInteractionView interactionViewDidTransitionToSize:]
+-[HYPSnapshotInteractionView extension]
+-[HYPSnapshotInteractionView .cxx_destruct]
+_OBJC_IVAR_$_HYPSnapshotInteractionView._extension
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/SnapShotPlugin/HYPSnapshotInteractionView.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/SnapShotPlugin/HYPSnapshotInteractionView.h
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/OverlayDebuggingWindow/HYPConfigurationConstants.m
++[HYPOverlayDebuggingWindow sharedInstance]
+___43+[HYPOverlayDebuggingWindow sharedInstance]_block_invoke
+-[HYPOverlayDebuggingWindow initWithFrame:]
+-[HYPOverlayDebuggingWindow init]
+-[HYPOverlayDebuggingWindow hitTest:withEvent:]
+-[HYPOverlayDebuggingWindow setup]
+-[HYPOverlayDebuggingWindow overlayModuleChanged:]
+-[HYPOverlayDebuggingWindow makeKeyWindow]
+-[HYPOverlayDebuggingWindow overlayModule]
+-[HYPOverlayDebuggingWindow setOverlayModule:]
+-[HYPOverlayDebuggingWindow overlayContainer]
+-[HYPOverlayDebuggingWindow setOverlayContainer:]
+-[HYPOverlayDebuggingWindow .cxx_destruct]
+_debuggingWindow
+_OBJC_IVAR_$_HYPOverlayDebuggingWindow.overlayModule
+_OBJC_IVAR_$_HYPOverlayDebuggingWindow._overlayContainer
+l_OBJC_PROTOCOL_$_HYPOverlayContainerDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPOverlayContainerDelegate
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/OverlayDebuggingWindow/HYPOverlayDebuggingWindow.m
+/Users/cc22989/Documents/Project/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/OverlayDebuggingWindow/HYPOverlayDebuggingWindow.h
+__43+[HYPOverlayDebuggingWindow sharedInstance]_block_invoke
+/Users/cc22989/Library/Caches/org.carthage.CarthageKit/DerivedData/9.3_9E145/Hyperion-iOS/1.1.0/Build/Intermediates.noindex/ArchiveIntermediates/HyperionCore/IntermediateBuildFilesPath/HyperionCore.build/Release-iphoneos/HyperionCore.build/DerivedSources/HyperionCore_vers.c
