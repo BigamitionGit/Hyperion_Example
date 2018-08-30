@@ -9,10 +9,6 @@
 import RxSwift
 import Foundation
 
-struct FetchError: Error {
-    let message = "failed to fetch"
-}
-
 final class GithubApiDebugService: GithubApiService {
     
     enum ResponseType: String {

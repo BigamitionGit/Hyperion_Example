@@ -45,6 +45,8 @@
 		609CD49A2135298F00F909E1 /* HYPAPIDebugPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CD4992135298F00F909E1 /* HYPAPIDebugPlugin.swift */; };
 		609CD49C213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CD49B213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift */; };
 		609CD49E213529C000F909E1 /* HYPAPIDebugPluginModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609CD49D213529C000F909E1 /* HYPAPIDebugPluginModule.swift */; };
+		A3F6AEB3213832E200FCFE6F /* FetchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6AEB2213832E200FCFE6F /* FetchError.swift */; };
+		A3F6AEB4213832E200FCFE6F /* FetchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F6AEB2213832E200FCFE6F /* FetchError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +101,7 @@
 		609CD4992135298F00F909E1 /* HYPAPIDebugPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPAPIDebugPlugin.swift; sourceTree = "<group>"; };
 		609CD49B213529AA00F909E1 /* HYPAPIDebugPluginMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPAPIDebugPluginMenuItem.swift; sourceTree = "<group>"; };
 		609CD49D213529C000F909E1 /* HYPAPIDebugPluginModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HYPAPIDebugPluginModule.swift; sourceTree = "<group>"; };
+		A3F6AEB2213832E200FCFE6F /* FetchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +197,7 @@
 				6051F1A6212EA39600CD8192 /* GithubApi.swift */,
 				6063D039212D0F4100B7D639 /* GithubApiService.swift */,
 				6051F182212E58E400CD8192 /* GithubApiDebugService.swift */,
+				A3F6AEB2213832E200FCFE6F /* FetchError.swift */,
 				6063CFD0212CF9EB00B7D639 /* Main.storyboard */,
 				6063CFD3212CF9ED00B7D639 /* Assets.xcassets */,
 				6063CFD5212CF9ED00B7D639 /* LaunchScreen.storyboard */,
@@ -459,6 +463,7 @@
 				6063D03F212D50CD00B7D639 /* TableViewCell.swift in Sources */,
 				6063CFCD212CF9EB00B7D639 /* AppDelegate.swift in Sources */,
 				6063D03A212D0F4100B7D639 /* GithubApiService.swift in Sources */,
+				A3F6AEB3213832E200FCFE6F /* FetchError.swift in Sources */,
 				6051F187212E5C7F00CD8192 /* ServiceModule.swift in Sources */,
 				6051F1A7212EA39600CD8192 /* GithubApi.swift in Sources */,
 			);
@@ -491,6 +496,7 @@
 				6063D038212D0EA300B7D639 /* GithubRepositoryModel.swift in Sources */,
 				6051F183212E58E400CD8192 /* GithubApiDebugService.swift in Sources */,
 				6063D040212D50CD00B7D639 /* TableViewCell.swift in Sources */,
+				A3F6AEB4213832E200FCFE6F /* FetchError.swift in Sources */,
 				6051F189212E5CE300CD8192 /* ServiceModule.swift in Sources */,
 				609CD49A2135298F00F909E1 /* HYPAPIDebugPlugin.swift in Sources */,
 				6063D013212D054300B7D639 /* AppDelegate.swift in Sources */,
