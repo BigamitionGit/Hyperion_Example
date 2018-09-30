@@ -11,15 +11,11 @@ import Foundation
 
 final class GithubApiDebugService: GithubApiService {
     
-    enum ResponseType: String {
+    enum ResponseType: String, CaseIterable {
         case `default` = "通常"
         case json0 = "0件"
         case json10 = "10件"
         case error = "エラー"
-        
-        static var allCases: [ResponseType] {
-            return [.default, .json0, .json10, .error]
-        }
     }
     
     static var type: ResponseType = .default
@@ -29,9 +25,9 @@ final class GithubApiDebugService: GithubApiService {
         case .default:
             return super.fetchRepositories(queryItems: queryItems)
         case .json0:
-            return Single.error(FetchError())
+            return JSONService.fetchJSONData(fileName: "GithubRepositories0")
         case .json10:
-            return Single.error(FetchError())
+            return JSONService.fetchJSONData(fileName: "GithubRepositories10")
         case .error:
             return Single.error(FetchError())
         }
