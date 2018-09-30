@@ -1,0 +1,70 @@
+BCSymbolMap Version: 2.0
+-[HYPSlowAnimationsPluginModule pluginMenuItem]
+-[HYPSlowAnimationsPluginModule userInitiatedSpeedChange:]
+-[HYPSlowAnimationsPluginModule currentAnimationSpeed]
+-[HYPSlowAnimationsPluginModule pluginMenuItemSelected:]
+-[HYPSlowAnimationsPluginModule .cxx_destruct]
+_OBJC_IVAR_$_HYPSlowAnimationsPluginModule._pluginMenuItem
+l_OBJC_PROTOCOL_$_HYPPluginMenuItemDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPPluginMenuItemDelegate
+l_OBJC_PROTOCOL_$_HYPSlowAnimationsPluginMenuItemDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPSlowAnimationsPluginMenuItemDelegate
+l_OBJC_PROTOCOL_$_HYPSlowAnimationsPluginMenuItemDataSource
+l_OBJC_LABEL_PROTOCOL_$_HYPSlowAnimationsPluginMenuItemDataSource
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/SlowAnimations/HYPSlowAnimationsPluginModule.m
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/HyperionCore
+-[HYPSlowAnimationsPluginMenuItem init]
+-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]
+___56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke
+___56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke_2
+___copy_helper_block_
+___destroy_helper_block_
+___56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke.77
+___copy_helper_block_.78
+___destroy_helper_block_.79
+___56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke.81
+___copy_helper_block_.82
+___destroy_helper_block_.83
+___copy_helper_block_.85
+___destroy_helper_block_.86
+-[HYPSlowAnimationsPluginMenuItem quarterSpeedSelected]
+-[HYPSlowAnimationsPluginMenuItem halfSpeedSelected]
+-[HYPSlowAnimationsPluginMenuItem threeQuartersSpeedSelected]
+-[HYPSlowAnimationsPluginMenuItem updateButtonSelectionBasedOnSpeed:]
+-[HYPSlowAnimationsPluginMenuItem speedDatasource]
+-[HYPSlowAnimationsPluginMenuItem setSpeedDatasource:]
+-[HYPSlowAnimationsPluginMenuItem speedDelegate]
+-[HYPSlowAnimationsPluginMenuItem setSpeedDelegate:]
+-[HYPSlowAnimationsPluginMenuItem quarterSpeed]
+-[HYPSlowAnimationsPluginMenuItem setQuarterSpeed:]
+-[HYPSlowAnimationsPluginMenuItem threeQuartersSpeed]
+-[HYPSlowAnimationsPluginMenuItem setThreeQuartersSpeed:]
+-[HYPSlowAnimationsPluginMenuItem halfSpeed]
+-[HYPSlowAnimationsPluginMenuItem setHalfSpeed:]
+-[HYPSlowAnimationsPluginMenuItem .cxx_destruct]
+_OBJC_IVAR_$_HYPSlowAnimationsPluginMenuItem._quarterSpeed
+_OBJC_IVAR_$_HYPSlowAnimationsPluginMenuItem._threeQuartersSpeed
+_OBJC_IVAR_$_HYPSlowAnimationsPluginMenuItem._halfSpeed
+___block_descriptor_tmp
+___block_descriptor_tmp.80
+___block_descriptor_tmp.84
+___block_descriptor_tmp.87
+_OBJC_IVAR_$_HYPSlowAnimationsPluginMenuItem._speedDatasource
+_OBJC_IVAR_$_HYPSlowAnimationsPluginMenuItem._speedDelegate
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/SlowAnimations/HYPSlowAnimationsPluginMenuItem.m
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/SlowAnimations/HYPSlowAnimationsPluginMenuItem.h
+__destroy_helper_block_
+__copy_helper_block_
+__56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke.81
+__56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke.77
+__56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke_2
+__56-[HYPSlowAnimationsPluginMenuItem setSelected:animated:]_block_invoke
++[HYPSlowAnimationsPlugin createPluginModule:]
++[HYPSlowAnimationsPlugin pluginVersion]
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_HYPPlugin
+l_OBJC_LABEL_PROTOCOL_$_HYPPlugin
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/SlowAnimations/HYPSlowAnimationsPlugin.m
+/Users/hosodahiroshi/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/Hyperion-iOS/1.1.0/Build/Intermediates.noindex/ArchiveIntermediates/SlowAnimations/IntermediateBuildFilesPath/HyperionCore.build/Release-iphoneos/SlowAnimations.build/DerivedSources/SlowAnimations_vers.c

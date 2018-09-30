@@ -1,0 +1,238 @@
+BCSymbolMap Version: 2.0
+-[HYPKeyValueInspectorAttribute initWithKey:value:]
+-[HYPKeyValueInspectorAttribute key]
+-[HYPKeyValueInspectorAttribute value]
+-[HYPKeyValueInspectorAttribute .cxx_destruct]
+_OBJC_IVAR_$_HYPKeyValueInspectorAttribute._key
+_OBJC_IVAR_$_HYPKeyValueInspectorAttribute._value
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_HYPInspectorAttribute
+l_OBJC_LABEL_PROTOCOL_$_HYPInspectorAttribute
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/Attributes/HYPKeyValueInspectorAttribute.m
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/HyperionCore
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/Attributes/HYPInspectorAttribute.h
+-[HYPAttributesPreviewViewController initWithSelectedView:]
+-[HYPAttributesPreviewViewController viewDidLoad]
+-[HYPAttributesPreviewViewController moreButtonTapped]
+-[HYPAttributesPreviewViewController layoutOverflowScroll]
+-[HYPAttributesPreviewViewController layoutMoreButton]
+-[HYPAttributesPreviewViewController layoutContainerView]
+-[HYPAttributesPreviewViewController getPreviewForView:]
+-[HYPAttributesPreviewViewController getAttributesProvidersDictionary]
+-[HYPAttributesPreviewViewController delegate]
+-[HYPAttributesPreviewViewController setDelegate:]
+-[HYPAttributesPreviewViewController selectedView]
+-[HYPAttributesPreviewViewController setSelectedView:]
+-[HYPAttributesPreviewViewController overflowScrollView]
+-[HYPAttributesPreviewViewController setOverflowScrollView:]
+-[HYPAttributesPreviewViewController attributes]
+-[HYPAttributesPreviewViewController setAttributes:]
+-[HYPAttributesPreviewViewController moreButton]
+-[HYPAttributesPreviewViewController setMoreButton:]
+-[HYPAttributesPreviewViewController divider]
+-[HYPAttributesPreviewViewController setDivider:]
+-[HYPAttributesPreviewViewController .cxx_destruct]
+_OBJC_IVAR_$_HYPAttributesPreviewViewController._delegate
+_OBJC_IVAR_$_HYPAttributesPreviewViewController._selectedView
+_OBJC_IVAR_$_HYPAttributesPreviewViewController._overflowScrollView
+_OBJC_IVAR_$_HYPAttributesPreviewViewController._attributes
+_OBJC_IVAR_$_HYPAttributesPreviewViewController._moreButton
+_OBJC_IVAR_$_HYPAttributesPreviewViewController._divider
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/HYPAttributesPreviewViewController.m
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/HYPAttributesPreviewViewController.h
+-[HYPAttributesInspectorPluginModule pluginMenuItemTitle]
+-[HYPAttributesInspectorPluginModule pluginMenuItemImage]
+-[HYPAttributesInspectorPluginModule activateSnapshotPluginViewWithContext:]
+-[HYPAttributesInspectorPluginModule snapshotContextWillTransitionToSize:withTransitionCoordinator:]
+-[HYPAttributesInspectorPluginModule snapshotContextDidTransitionToSize:]
+-[HYPAttributesInspectorPluginModule deactivateSnapshotPluginView]
+-[HYPAttributesInspectorPluginModule snapshotPluginView]
+-[HYPAttributesInspectorPluginModule currentAttributesInteractionView]
+-[HYPAttributesInspectorPluginModule setCurrentAttributesInteractionView:]
+-[HYPAttributesInspectorPluginModule .cxx_destruct]
+_OBJC_IVAR_$_HYPAttributesInspectorPluginModule._snapshotPluginView
+_OBJC_IVAR_$_HYPAttributesInspectorPluginModule._currentAttributesInteractionView
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/HYPAttributesInspectorPluginModule.m
+-[HYPSnapshotPluginModule snapshotPluginView]
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/SnapShotPlugin/HYPSnapshotPluginModule.h
+-[HYPLabelAttributesProvider attributesSectionName]
+-[HYPLabelAttributesProvider fullAttributesForView:]
+-[HYPLabelAttributesProvider previewForView:]
+-[HYPLabelAttributesProvider providerClass]
+l_OBJC_PROTOCOL_$_HYPAttributesProvider
+l_OBJC_LABEL_PROTOCOL_$_HYPAttributesProvider
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/AttributeProviders/HYPLabelAttributesProvider.m
+-[HYPTextPreview initWithFont:textColor:]
+-[HYPTextPreview initWithAttributedString:]
+___Block_byref_object_copy_
+___Block_byref_object_dispose_
+___43-[HYPTextPreview initWithAttributedString:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[HYPTextPreview setupWithFont:color:]
+-[HYPTextPreview font]
+-[HYPTextPreview setFont:]
+-[HYPTextPreview textColor]
+-[HYPTextPreview setTextColor:]
+-[HYPTextPreview fontNameLabel]
+-[HYPTextPreview setFontNameLabel:]
+-[HYPTextPreview sizeLabel]
+-[HYPTextPreview setSizeLabel:]
+-[HYPTextPreview colorLabel]
+-[HYPTextPreview setColorLabel:]
+-[HYPTextPreview lineSpacingLabel]
+-[HYPTextPreview setLineSpacingLabel:]
+-[HYPTextPreview colorCircle]
+-[HYPTextPreview setColorCircle:]
+-[HYPTextPreview characterSpacingLabel]
+-[HYPTextPreview setCharacterSpacingLabel:]
+-[HYPTextPreview complicatedState]
+-[HYPTextPreview setComplicatedState:]
+-[HYPTextPreview .cxx_destruct]
+___block_descriptor_tmp
+_OBJC_IVAR_$_HYPTextPreview._font
+_OBJC_IVAR_$_HYPTextPreview._textColor
+_OBJC_IVAR_$_HYPTextPreview._fontNameLabel
+_OBJC_IVAR_$_HYPTextPreview._sizeLabel
+_OBJC_IVAR_$_HYPTextPreview._colorLabel
+_OBJC_IVAR_$_HYPTextPreview._lineSpacingLabel
+_OBJC_IVAR_$_HYPTextPreview._colorCircle
+_OBJC_IVAR_$_HYPTextPreview._characterSpacingLabel
+_OBJC_IVAR_$_HYPTextPreview._complicatedState
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/PreviewViews/HYPTextPreview.m
+__destroy_helper_block_
+__copy_helper_block_
+__43-[HYPTextPreview initWithAttributedString:]_block_invoke
+__Block_byref_object_dispose_
+__Block_byref_object_copy_
+-[HYPAttributeInspectorInteractionView init]
+-[HYPAttributeInspectorInteractionView initWithExtension:]
+-[HYPAttributeInspectorInteractionView setup]
+-[HYPAttributeInspectorInteractionView tapGesture:]
+-[HYPAttributeInspectorInteractionView viewSelected:]
+-[HYPAttributeInspectorInteractionView interactionViewDidTransitionToSize:]
+-[HYPAttributeInspectorInteractionView updateSelection]
+-[HYPAttributeInspectorInteractionView moreButtonPressedForSelectedView:]
+-[HYPAttributeInspectorInteractionView longPress:]
+-[HYPAttributeInspectorInteractionView highlightView]
+-[HYPAttributeInspectorInteractionView setHighlightView:]
+-[HYPAttributeInspectorInteractionView lastSelectedView]
+-[HYPAttributeInspectorInteractionView setLastSelectedView:]
+-[HYPAttributeInspectorInteractionView currentlySelectedView]
+-[HYPAttributeInspectorInteractionView setCurrentlySelectedView:]
+-[HYPAttributeInspectorInteractionView .cxx_destruct]
+_OBJC_IVAR_$_HYPAttributeInspectorInteractionView._highlightView
+_OBJC_IVAR_$_HYPAttributeInspectorInteractionView._lastSelectedView
+_OBJC_IVAR_$_HYPAttributeInspectorInteractionView._currentlySelectedView
+l_OBJC_PROTOCOL_$_HYPViewSelectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPViewSelectionDelegate
+l_OBJC_PROTOCOL_$_HYPAttributesPreviewViewControllerDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPAttributesPreviewViewControllerDelegate
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/HYPAttributeInspectorInteractionView.m
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/HYPAttributeInspectorInteractionView.h
+-[HYPAttributesProvider attributesSectionName]
+-[HYPAttributesProvider previewForView:]
+-[HYPAttributesProvider providerClass]
+-[HYPAttributesProvider fullAttributesForView:]
+-[HYPAttributesProvider providingClass]
+-[HYPAttributesProvider setProvidingClass:]
+-[HYPAttributesProvider .cxx_destruct]
+_OBJC_IVAR_$_HYPAttributesProvider._providingClass
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/AttributeProviders/HYPAttributesProvider.m
+-[HYPAttributesSection initWithSectionName:attributeRows:]
+-[HYPAttributesSection sectionName]
+-[HYPAttributesSection setSectionName:]
+-[HYPAttributesSection attributeRows]
+-[HYPAttributesSection setAttributeRows:]
+-[HYPAttributesSection .cxx_destruct]
+-[HYPMoreAttributesListViewController initWithSelectedView:]
+-[HYPMoreAttributesListViewController viewDidLoad]
+-[HYPMoreAttributesListViewController done]
+-[HYPMoreAttributesListViewController tableView:titleForHeaderInSection:]
+-[HYPMoreAttributesListViewController numberOfSectionsInTableView:]
+-[HYPMoreAttributesListViewController tableView:heightForRowAtIndexPath:]
+-[HYPMoreAttributesListViewController tableView:estimatedHeightForRowAtIndexPath:]
+-[HYPMoreAttributesListViewController tableView:numberOfRowsInSection:]
+-[HYPMoreAttributesListViewController tableView:cellForRowAtIndexPath:]
+-[HYPMoreAttributesListViewController getAttributesForView:]
+-[HYPMoreAttributesListViewController getAttributesProvidersDictionary]
+-[HYPMoreAttributesListViewController attributesSections]
+-[HYPMoreAttributesListViewController setAttributesSections:]
+-[HYPMoreAttributesListViewController moreAttributesTableView]
+-[HYPMoreAttributesListViewController setMoreAttributesTableView:]
+-[HYPMoreAttributesListViewController selectedView]
+-[HYPMoreAttributesListViewController setSelectedView:]
+-[HYPMoreAttributesListViewController .cxx_destruct]
+_OBJC_IVAR_$_HYPAttributesSection._sectionName
+_OBJC_IVAR_$_HYPAttributesSection._attributeRows
+_OBJC_IVAR_$_HYPMoreAttributesListViewController._selectedView
+_OBJC_IVAR_$_HYPMoreAttributesListViewController._attributesSections
+_OBJC_IVAR_$_HYPMoreAttributesListViewController._moreAttributesTableView
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+l_OBJC_PROTOCOL_$_UITableViewDataSource
+l_OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/HYPMoreAttributesListViewController.m
++[HYPUIHelpers rgbTextForColor:]
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/Helpers/HYPUIHelpers.m
+-[HYPAttributedStringAttributeProvider attributesForAttributedString:]
+___70-[HYPAttributedStringAttributeProvider attributesForAttributedString:]_block_invoke
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/AttributeProviders/HYPAttributedStringAttributeProvider.m
+__70-[HYPAttributedStringAttributeProvider attributesForAttributedString:]_block_invoke
+-[HYPKeyValueTableViewCell awakeFromNib]
+-[HYPKeyValueTableViewCell bindKey:value:]
+-[HYPKeyValueTableViewCell keyLabel]
+-[HYPKeyValueTableViewCell setKeyLabel:]
+-[HYPKeyValueTableViewCell valueLabel]
+-[HYPKeyValueTableViewCell setValueLabel:]
+-[HYPKeyValueTableViewCell .cxx_destruct]
+_OBJC_IVAR_$_HYPKeyValueTableViewCell._keyLabel
+_OBJC_IVAR_$_HYPKeyValueTableViewCell._valueLabel
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/AttributeCells/HYPKeyValueTableViewCell.m
++[HYPAttributesInspectorPlugin createPluginModule:]
++[HYPAttributesInspectorPlugin pluginVersion]
+l_OBJC_PROTOCOL_$_HYPPlugin
+l_OBJC_LABEL_PROTOCOL_$_HYPPlugin
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/HYPAttributesInspectorPlugin.m
+-[HYPAttributedStringAttributeTableViewCell initWithAttributedString:forRange:]
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/AttributeCells/HYPAttributedStringAttributeTableViewCell.m
+-[HYPAttributedStringInspectorAttribute initWithAttributedString:range:]
+-[HYPAttributedStringInspectorAttribute customAttributeCell]
+-[HYPAttributedStringInspectorAttribute key]
+-[HYPAttributedStringInspectorAttribute value]
+-[HYPAttributedStringInspectorAttribute range]
+-[HYPAttributedStringInspectorAttribute setRange:]
+-[HYPAttributedStringInspectorAttribute attributedString]
+-[HYPAttributedStringInspectorAttribute setAttributedString:]
+-[HYPAttributedStringInspectorAttribute attributedCell]
+-[HYPAttributedStringInspectorAttribute setAttributedCell:]
+-[HYPAttributedStringInspectorAttribute .cxx_destruct]
+_OBJC_IVAR_$_HYPAttributedStringInspectorAttribute._attributedString
+_OBJC_IVAR_$_HYPAttributedStringInspectorAttribute._range
+_OBJC_IVAR_$_HYPAttributedStringInspectorAttribute._key
+_OBJC_IVAR_$_HYPAttributedStringInspectorAttribute._value
+_OBJC_IVAR_$_HYPAttributedStringInspectorAttribute._attributedCell
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/Attributes/HYPAttributedStringInspectorAttribute.m
+-[HYPViewPreview initWithPreviewTargetView:]
+-[HYPViewPreview colorLabel]
+-[HYPViewPreview setColorLabel:]
+-[HYPViewPreview frameLabel]
+-[HYPViewPreview setFrameLabel:]
+-[HYPViewPreview previewTarget]
+-[HYPViewPreview setPreviewTarget:]
+-[HYPViewPreview backgroundColorView]
+-[HYPViewPreview setBackgroundColorView:]
+-[HYPViewPreview accessibilityTextLabel]
+-[HYPViewPreview setAccessibilityTextLabel:]
+-[HYPViewPreview .cxx_destruct]
+_OBJC_IVAR_$_HYPViewPreview._previewTarget
+_OBJC_IVAR_$_HYPViewPreview._backgroundColorView
+_OBJC_IVAR_$_HYPViewPreview._colorLabel
+_OBJC_IVAR_$_HYPViewPreview._frameLabel
+_OBJC_IVAR_$_HYPViewPreview._accessibilityTextLabel
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/AttributesInspector/AttributesViewer/PreviewViews/HYPViewPreview.m
+/Users/hosodahiroshi/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/Hyperion-iOS/1.1.0/Build/Intermediates.noindex/ArchiveIntermediates/AttributesInspector/IntermediateBuildFilesPath/HyperionCore.build/Release-iphoneos/AttributesInspector.build/DerivedSources/AttributesInspector_vers.c

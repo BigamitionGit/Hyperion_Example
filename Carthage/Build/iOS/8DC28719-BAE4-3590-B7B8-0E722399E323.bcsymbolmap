@@ -1,0 +1,79 @@
+BCSymbolMap Version: 2.0
+-[HYPMeasurementsInteractionView init]
+-[HYPMeasurementsInteractionView initWithExtension:]
+-[HYPMeasurementsInteractionView setup]
+-[HYPMeasurementsInteractionView tapGesture:]
+-[HYPMeasurementsInteractionView viewSelected:]
+-[HYPMeasurementsInteractionView interactionViewWillTransitionToSize:withTransitionCoordinator:]
+-[HYPMeasurementsInteractionView interactionViewDidTransitionToSize:]
+-[HYPMeasurementsInteractionView longPress:]
+-[HYPMeasurementsInteractionView displayMeasurementViewsForView:comparedToView:]
+-[HYPMeasurementsInteractionView addBorderForSelectedView]
+-[HYPMeasurementsInteractionView addBorderForCompareView]
+-[HYPMeasurementsInteractionView getLinesForViewAxis:]
+-[HYPMeasurementsInteractionView clearAllStyling]
+-[HYPMeasurementsInteractionView clearMeasurementViews]
+-[HYPMeasurementsInteractionView clearSelectedStyling]
+-[HYPMeasurementsInteractionView clearCompareStyling]
+-[HYPMeasurementsInteractionView clearStylingsForList:]
+-[HYPMeasurementsInteractionView measurementPathWithStartPoint:endPoint:]
+-[HYPMeasurementsInteractionView placeTopMeasurmentBetweenSelectedView:comparisonView:]
+-[HYPMeasurementsInteractionView placeBottomMeasurmentBetweenSelectedView:comparisonView:]
+-[HYPMeasurementsInteractionView placeLeftMeasurmentBetweenSelectedView:comparisonView:]
+-[HYPMeasurementsInteractionView placeRightMeasurmentBetweenSelectedView:comparisonView:]
+-[HYPMeasurementsInteractionView addMeasureLabelWithValue:centerPoint:]
+-[HYPMeasurementsInteractionView addShapeForPath:]
+-[HYPMeasurementsInteractionView frame:insideFrame:]
+-[HYPMeasurementsInteractionView measurementViews]
+-[HYPMeasurementsInteractionView setMeasurementViews:]
+-[HYPMeasurementsInteractionView selectedView]
+-[HYPMeasurementsInteractionView setSelectedView:]
+-[HYPMeasurementsInteractionView compareView]
+-[HYPMeasurementsInteractionView setCompareView:]
+-[HYPMeasurementsInteractionView selectedViewsStyling]
+-[HYPMeasurementsInteractionView setSelectedViewsStyling:]
+-[HYPMeasurementsInteractionView compareViewStyling]
+-[HYPMeasurementsInteractionView setCompareViewStyling:]
+-[HYPMeasurementsInteractionView primaryColor]
+-[HYPMeasurementsInteractionView setPrimaryColor:]
+-[HYPMeasurementsInteractionView secondaryColor]
+-[HYPMeasurementsInteractionView setSecondaryColor:]
+-[HYPMeasurementsInteractionView .cxx_destruct]
+_OBJC_IVAR_$_HYPMeasurementsInteractionView._measurementViews
+_OBJC_IVAR_$_HYPMeasurementsInteractionView._selectedView
+_OBJC_IVAR_$_HYPMeasurementsInteractionView._compareView
+_OBJC_IVAR_$_HYPMeasurementsInteractionView._selectedViewsStyling
+_OBJC_IVAR_$_HYPMeasurementsInteractionView._compareViewStyling
+_OBJC_IVAR_$_HYPMeasurementsInteractionView._primaryColor
+_OBJC_IVAR_$_HYPMeasurementsInteractionView._secondaryColor
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_HYPViewSelectionDelegate
+l_OBJC_LABEL_PROTOCOL_$_HYPViewSelectionDelegate
+Apple LLVM version 10.0.0 (clang-1000.11.45.2)
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Measurements/HYPMeasurementsInteractionView.m
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/HyperionCore
+CGPointMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+-[HYPMeasurementsPluginModule initWithExtension:]
+-[HYPMeasurementsPluginModule pluginMenuItemTitle]
+-[HYPMeasurementsPluginModule pluginMenuItemImage]
+-[HYPMeasurementsPluginModule activateSnapshotPluginViewWithContext:]
+-[HYPMeasurementsPluginModule snapshotContextWillTransitionToSize:withTransitionCoordinator:]
+-[HYPMeasurementsPluginModule snapshotContextDidTransitionToSize:]
+-[HYPMeasurementsPluginModule deactivateSnapshotPluginView]
+-[HYPMeasurementsPluginModule snapshotPluginView]
+-[HYPMeasurementsPluginModule currentMeasurementsView]
+-[HYPMeasurementsPluginModule setCurrentMeasurementsView:]
+-[HYPMeasurementsPluginModule .cxx_destruct]
+_OBJC_IVAR_$_HYPMeasurementsPluginModule._snapshotPluginView
+_OBJC_IVAR_$_HYPMeasurementsPluginModule._currentMeasurementsView
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Measurements/HYPMeasurementsPluginModule.m
+-[HYPSnapshotPluginModule snapshotPluginView]
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Core/Public/Plugin/SnapShotPlugin/HYPSnapshotPluginModule.h
++[HYPMeasurementsPlugin createPluginModule:]
++[HYPMeasurementsPlugin pluginVersion]
+l_OBJC_PROTOCOL_$_HYPPlugin
+l_OBJC_LABEL_PROTOCOL_$_HYPPlugin
+/Users/hosodahiroshi/Xcode/Hyperion-Plugin-Example/Carthage/Checkouts/Hyperion-iOS/Measurements/HYPMeasurementsPlugin.m
+/Users/hosodahiroshi/Library/Caches/org.carthage.CarthageKit/DerivedData/10.0_10A255/Hyperion-iOS/1.1.0/Build/Intermediates.noindex/ArchiveIntermediates/Measurements/IntermediateBuildFilesPath/HyperionCore.build/Release-iphoneos/Measurements.build/DerivedSources/Measurements_vers.c

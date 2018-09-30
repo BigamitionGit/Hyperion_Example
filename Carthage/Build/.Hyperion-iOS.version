@@ -2,20 +2,20 @@
   "commitish" : "1.1.0",
   "iOS" : [
     {
-      "name" : "SlowAnimations",
-      "hash" : "4737346f4c81763594589eb9080075af5b519f5a6592f63e5654ea4f9085cfb6"
-    },
-    {
       "name" : "Measurements",
-      "hash" : "f05823d55fd6e73303b674f10d8a29cf4ce40394016a28552179ba2b16c3359b"
+      "hash" : "944ec7e6e6b80be620265e473682791448f1c23e16cb176b0d0c8f2b9c9914a0"
     },
     {
-      "name" : "AttributesInspector",
-      "hash" : "c541d2fc155dbcbacde466f64ad4164a63b8de9a7845f6796bd782053ec6e739"
+      "name" : "SlowAnimations",
+      "hash" : "6121d366ef63334be5190c59e682440bcfa4ce422d2b7a6aee789d9b28ce2af3"
     },
     {
       "name" : "HyperionCore",
-      "hash" : "827cac469753c4b1c39f0c3d92d711678f07c2c17176a34f83840c05a65155ef"
+      "hash" : "19e09b1545d69d8355906b66ec8da40610d4d7977f58b8c2621fc91b1a3213d2"
+    },
+    {
+      "name" : "AttributesInspector",
+      "hash" : "dde71944c3d12e0f1c560de2e687d34da4daab3ece2c33a164e71d0967e4cfbb"
     }
   ]
 }
