@@ -12,10 +12,10 @@ import Foundation
 final class GithubApiDebugService: GithubApiService {
     
     enum ResponseType: String, CaseIterable {
-        case `default` = "通常"
-        case json0 = "0件"
-        case json10 = "10件"
-        case error = "エラー"
+        case `default` = "default"
+        case json0 = "0"
+        case json10 = "10"
+        case error = "error"
     }
     
     static var type: ResponseType = .default
