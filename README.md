@@ -21,4 +21,4 @@ Screenshots
 License
 -------
 
-RxTodo is under MIT license.
+Hyperion_Example is MIT license.
